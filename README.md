@@ -17,8 +17,9 @@ Sample file are only need when Reps='YES'. This file is a two-column table conta
 
 ## Use the file in R
 ```
+library(repmis)
+
 URL="https://github.com/RJWANGbioinfo/PAS_reference_RData/blob/master/"
 file="hg19_REF.RData"
-library(repmis)
 source_data(paste0(URL,file,"?raw=True"))
 ```
